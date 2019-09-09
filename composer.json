@@ -1,0 +1,22 @@
+{
+    "name": "uemanet/eloquent-table",
+    "description": "An HTML table generator for Laravel Collection",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.3 ",
+        "illuminate/support": "5.8.*",
+        "illuminate/database": "5.8.*",
+        "illuminate/pagination": "5.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uemanet\\EloquentTable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Pimenta",
+            "email": "felipe.meneses@uemanet.uema.br"
+        }
+    ]
+}
