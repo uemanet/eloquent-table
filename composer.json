@@ -4,9 +4,9 @@
     "type": "library",
     "require": {
         "php": ">=7.1.3 ",
-        "illuminate/support": "5.8.*",
-        "illuminate/database": "5.8.*",
-        "illuminate/pagination": "5.8.*"
+        "illuminate/support": "5.8.*| ~6.0",
+        "illuminate/database": "5.8.*| ~6.0",
+        "illuminate/pagination": "5.8.*| ~6.0"
     },
     "autoload": {
         "psr-4": {
@@ -17,6 +17,10 @@
         {
             "name": "Felipe Pimenta",
             "email": "felipe.meneses@uemanet.uema.br"
+        },        
+        {
+            "name": "Pedro Fellipe",
+            "email": "pedro.melo@uemanet.uema.br"
         }
     ]
 }
