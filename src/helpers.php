@@ -16,8 +16,8 @@ if (!function_exists('sortableUrlLink')) {
      */
     function sortableUrlLink($title, $parameters)
     {
-        $field = Input::get('field');
-        $sort = strtolower(Input::get('sort'));
+        $field = Request::input('field');
+        $sort = strtolower(Request::input('sort'));
 
         // Make sure we flip sorting if the sort field is already descending
         if ($sort === 'desc') {
