@@ -1,5 +1,5 @@
 {
-    "name": "uemanet/eloquenttable",
+    "name": "uemanet/eloquent-table",
     "description": "An HTML table generator for Laravel Collection",
     "type": "library",
     "require": {
